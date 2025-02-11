@@ -18,12 +18,12 @@ const BentoGrid = () => {
           expandedContent={
             <div className="text-zinc-800">
               <h3 className="font-bold mb-4">More About Me</h3>
-              <p>Hi! I'm a full-stack developer passionate about creating beautiful and functional web experiences.</p>
+              <p>Hi! I'm a senior at Seven Lakes Highschool aspiring to gain a career in computer science.</p>
             </div>
           }>
           <div className="flex flex-col items-center">
             <div className="w-32 h-32 rounded-full mb-4" style={{ background: '#9A879D' }}></div>
-            <h2 className="text-xl font-medium text-zinc-800">Your Name</h2>
+            <h2 className="text-xl font-medium text-zinc-800">Carlos Losin</h2>
           </div>
         </BentoBox>
         
@@ -34,7 +34,7 @@ const BentoGrid = () => {
           onExpand={() => setExpandedBox(expandedBox === 'about' ? null : 'about')}
           expandedContent={
             <div className="text-white">
-              <p className="leading-relaxed">I specialize in modern web technologies and have a keen interest in user experience design. With several years of experience in both frontend and backend development, I love tackling complex problems and turning them into simple, elegant solutions.</p>
+              <p className="leading-relaxed">I'm currently working on my 201-301 CCNA certification. I'm planning on going to UTSA to study computer science with a focus in cybersecurity.</p>
             </div>
           }>
           <h2 className="text-xl font-medium text-white mb-4">About Me</h2>
@@ -50,9 +50,9 @@ const BentoGrid = () => {
             <div className="text-white">
               <h3 className="font-bold mb-4">Technical Skills</h3>
               <ul className="list-disc pl-4 space-y-2">
-                <li>Frontend: React, Next.js, TypeScript, Tailwind</li>
-                <li>Backend: Node.js, Python, PostgreSQL</li>
-                <li>Tools: Git, Docker, AWS, Vercel</li>
+                <li>Java, Javascript, Python</li>
+                <li>Network and Security Fundamentals</li>
+                <li></li>
               </ul>
             </div>
           }>
@@ -71,9 +71,9 @@ const BentoGrid = () => {
             <div className="text-white">
               <h3 className="font-bold mb-4">Featured Projects</h3>
               <ul className="space-y-2">
-                <li className="font-medium">Portfolio Website</li>
-                <li className="font-medium">E-commerce Platform</li>
-                <li className="font-medium">Task Management App</li>
+                <li className="font-medium">a whole</li>
+                <li className="font-medium">lotta</li>
+                <li className="font-medium">nothing</li>
               </ul>
             </div>
           }>
